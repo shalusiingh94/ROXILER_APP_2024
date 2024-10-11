@@ -1,0 +1,23 @@
+
+
+#barChartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#barChartCanvas {
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.barchart-container{
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+}

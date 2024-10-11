@@ -1,0 +1,115 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+
+  cursor: pointer;
+  height: 60%;
+  overflow-y: auto;
+  box-shadow: 1px 1px 10px grey;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  /* border-bottom: 2px solid black; */
+
+  /* border-radius: 25px; */
+  
+}
+th {
+  background-color: #427D9D;
+  color: white;
+}
+.main-container{
+  background-color: #DDF2FD;
+  /* height: 100vh; */
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.first-container{
+  height: 10%;
+  width: 100%;
+  background-color: #164863;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0.5px 0.5px 6px black;
+  border-radius: 40px;
+  border: 1px solid white;
+
+}
+.second-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-element{
+  background-color: #427D9D;
+  color: white;
+  border-radius: 15px;
+  height: 35px;
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  box-shadow: 1px 1px 8px rgb(150, 144, 144);
+  border: 1px solid white
+}
+.dropdown-list{
+  outline: none;
+  background-color: #427D9D;
+  color: white;
+  border-radius: 15px;
+  height: 35px;
+  width: 30%;
+  cursor: pointer;
+  border: 1px solid white;
+  box-shadow: 1px 1px 8px rgb(150, 144, 144);
+}
+.selector-element{
+  background-color: rgb(147, 165, 42);
+  color: white;
+  
+}
+.last-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  color: #164863;
+}
+.next-button{
+  cursor: pointer;
+}
+.previous-button{
+  cursor: pointer;
+}
+.product-image{
+  background-color: transparent;
+}
+.line{
+  color: black;
+}
+::placeholder{
+  color: white;
+}
+h3{
+  text-align: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}

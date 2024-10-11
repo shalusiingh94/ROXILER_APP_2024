@@ -1,0 +1,35 @@
+
+.statitics-container{
+    background-color: #164863;
+    padding: 10px;
+    border-radius: 15px;
+    height: 150px;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
+    box-shadow: 1px 1px 8px grey;
+    border: 0.3px solid white;
+}
+.statistics-main-container{
+    height: 50%;
+    width: 35%;
+    background-color: #DDF2FD;
+    margin: auto;
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: 500;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
