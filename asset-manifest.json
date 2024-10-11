@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ROXILER_APP_2024/static/css/main.f01a87bf.css",
+    "main.js": "/ROXILER_APP_2024/static/js/main.0b6f4231.js",
+    "static/js/453.68d2f560.chunk.js": "/ROXILER_APP_2024/static/js/453.68d2f560.chunk.js",
+    "index.html": "/ROXILER_APP_2024/index.html",
+    "main.f01a87bf.css.map": "/ROXILER_APP_2024/static/css/main.f01a87bf.css.map",
+    "main.0b6f4231.js.map": "/ROXILER_APP_2024/static/js/main.0b6f4231.js.map",
+    "453.68d2f560.chunk.js.map": "/ROXILER_APP_2024/static/js/453.68d2f560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01a87bf.css",
+    "static/js/main.0b6f4231.js"
+  ]
+}
